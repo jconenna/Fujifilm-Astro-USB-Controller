@@ -1,4 +1,4 @@
-# Fujifilm-USB-Shutter-Release
+# Fujifilm-Astro-USB-Controller
 
 USB Serial shutter release device for Fujifilm cameras, geared towards **Astrophotography** use.
 
