@@ -6,8 +6,17 @@ USB Serial shutter release device for Fujifilm cameras.
 
 
 ## Description
-This device was made in response to a lack of tethering options for Fujifilm cameras for **Astrophotography control**, though it can be used for general shutter release needs.
-This device allows a compatible Fujifilm camera to be controlled by [digiCamControl](http://digicamcontrol.com/) software (free, MS Windows) with its "Astro" intervalometer mode, which allows for autoguiding a mount between frames using [PHD2](https://openphdguiding.org/) software which interoperates with digiCamControl.
+This device was made in response to a lack of tethering options for Fujifilm cameras for **Astrophotography control**, though it can be used for general shutter release needs with manual lenses or lense with autofocus disabled.
+This device allows a compatible Fujifilm camera to be controlled by [digiCamControl](http://digicamcontrol.com/) software (free, MS Windows) with its "Astro" intervalometer mode, which allows for autoguiding a mount between frames using [PHD2](https://openphdguiding.org/) software which interoperates with digiCamControl.</br>
+
+The device was made using common, inexpensive, and easy to assemble parts that can be sourced from places like Amazon, Ebay, Sparkfun, and others.</br>
+
+An optoisolator isolates the 5V Computer side circuit from the shutter release camera side of the circuit, providing added safety. 
+
+## Theory of Operation
+This device works by using software on a computer to control the RTS signal of an RS-232 connection (USB to Serial Converter in this case). The RTS signal from the Converter used here is inverted using a transistor since it comes from the FTDI chip inverted (cannot change EEPORM setting of **this** converter). When the signal reaching the optoisolatr is asserted it turns on the internal IR LED whose photons turn on the internal IR Photodiode, thereby connecting the Shutter/Focus pins to the Ground pin of the shutter release cable. For Fujifilm cameras I was targeting it was noted from inspection of commercial shutter release products that a successful shutter release depends on activating the focus pin before the shutter pin.
+
+You **may** be able to use this device with other camera control software that has a "Serial Shutter Release" option that uses the RTS signal to trigger a camera. 
 
 This has been tested working with an X-T100 and X-S10, and may work with other similarly controlled Fujifilm cameras (e.g. X-T#, X-T##, X-E#,X-T###, X###C, etc.) If you try this and it works for your camera let me know so I can build a compatability list.
 
