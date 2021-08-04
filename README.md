@@ -16,18 +16,18 @@ Included are the Eagle PCB files for ordering a board. Boards can be [purchased 
 Included are two stl files for 3D printing a case. This contains a top and bottom piece that snap together and can be easily printed without supports by a wide variety of printers. I used PLA with default printed settings. 
 
 ## Bill of Materials:
-1 - FT232RL USB to TTL Serial Converter module (red PCB with Mini USB female connector)
-1 - PJ-307 3.5 mm Audio Jack Connector PCB Mount Female Socket 5 Pin
-1 - 4N25 Optoisolator (6 pin DIP, white)
-1 - 2N2222 NPN Transistor (TO-92 package)
-2 - 1 kOhm Axial Resistor (common through hole resistor)
-1 - 50 Ohm Axial Resistor (common through hole resistor)
+1 - FT232RL USB to TTL Serial Converter module (red PCB with Mini USB female connector)<br/>
+1 - PJ-307 3.5 mm Audio Jack Connector PCB Mount Female Socket 5 Pin<br/>
+1 - 4N25 Optoisolator (6 pin DIP, white)<br/>
+1 - 2N2222 NPN Transistor (TO-92 package)<br/>
+2 - 1 kOhm Axial Resistor (common through hole resistor)<br/>
+1 - 50 Ohm Axial Resistor (common through hole resistor)<br/>
 
 ## In addition you will need:
-1 - A-Male to Mini-B USB, length of your choice
-1 - 3.5mm Audio Cable, length of your choice
-1 - 3.5mm Female to 2.5mm Male adapter, preference to short cable type with right angle 2.5mm connector
-OR 1 - 3.5mm male to 2.5mm male Audio cable
+1 - A-Male to Mini-B USB, length of your choice<br/>
+1 - 3.5mm Audio Cable, length of your choice<br/>
+1 - 3.5mm Female to 2.5mm Male adapter, preference to short cable type with right angle 2.5mm connector<br/>
+OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 
 ## Tutorial
 *Soon to come is a tutorial for assembly, and use with digiCamControl.
