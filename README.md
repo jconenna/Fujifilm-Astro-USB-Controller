@@ -54,6 +54,8 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 
 ## Tutorial
 
+### Assembly
+
 [Here is a video showing from start to finish how I solder the components to the board.](https://youtu.be/rFp3plmKMuA)
 
-*Soon to come is a tutorial use with digiCamControl.
+
