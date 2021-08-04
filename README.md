@@ -11,7 +11,7 @@ This has been tested working with an X-T100 and X-S10, and may work with other s
 For astrophotography it has been tested working with an X-T100, camera lesn, and Star Adventurer guided with a small guide camera and guide scope.
 
 ## What's Included
-Included are the Eagle PCB files for ordering a board. Boards can be (purchased from OSH Park)[https://oshpark.com/shared_projects/9drAsv7N] for around $11 for 3 boards. If you choose to order elsewhere, the 3D files are designed for a PCB thickness of 63mil (1.6mm).
+Included are the Eagle PCB files for ordering a board. Boards can be [purchased from OSH Park](https://oshpark.com/shared_projects/9drAsv7N) for around $11 for 3 boards. If you choose to order elsewhere, the 3D files are designed for a PCB thickness of 63mil (1.6mm).
 
 Included are two stl files for 3D printing a case. This contains a top and bottom piece that snap together and can be easily printed without supports by a wide variety of printers. I used PLA with default printed settings. 
 
