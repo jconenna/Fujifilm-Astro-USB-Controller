@@ -6,7 +6,8 @@ USB Serial shutter release device for Fujifilm cameras, geared towards **Astroph
 
 
 ## Description
-This device was made in response to a lack of tethering options for Fujifilm cameras for **Astrophotography control**, though it can be used for general shutter release needs with manual lenses or lense with autofocus disabled.
+This device was made in response to a lack of tethering options for Fujifilm cameras for **Astrophotography control**, though it can be used for general shutter release needs with manual lenses or lenses with autofocus disabled.</br>
+
 This device allows a compatible Fujifilm camera to be controlled by [digiCamControl](http://digicamcontrol.com/) software (free, MS Windows) with its "Astro" intervalometer mode, which allows for autoguiding a mount between frames using [PHD2](https://openphdguiding.org/) software which interoperates with digiCamControl.</br>
 
 The device was made using common, inexpensive, and easy to assemble parts that can be sourced from places like Amazon, Ebay, Sparkfun, and others.</br>
