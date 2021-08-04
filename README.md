@@ -8,7 +8,7 @@ This device allows a compatible Fujifilm camera to be controlled by [digiCamCont
 
 This has been tested working with an X-T100 and X-S10, and may work with other similarly controlled Fujifilm cameras (e.g. X-T#, X-T##, X-E#,X-T###, X###C, etc.) If you try this and it works for your camera let me know so I can build a compatability list.
 
-For astrophotography it has been tested working with an X-T100, camera lesn, and Star Adventurer guided with a small guide camera and guide scope.
+For astrophotography it has been tested working with an X-T100, camera lens, and Star Adventurer guided with a small guide camera and guide scope.
 
 ## What's Included
 Included are the Eagle PCB files for ordering a board. Boards can be [purchased from OSH Park](https://oshpark.com/shared_projects/9drAsv7N) for around $11 for 3 boards. If you choose to order elsewhere, the 3D files are designed for a PCB thickness of 63mil (1.6mm).
