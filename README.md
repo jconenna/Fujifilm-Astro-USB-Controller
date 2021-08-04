@@ -13,14 +13,16 @@ The device was made using common, inexpensive, and easy to assemble parts that c
 
 An optoisolator isolates the 5V Computer side circuit from the shutter release camera side of the circuit, providing added safety. 
 
-## Theory of Operation
-This device works by using software on a computer to control the RTS signal of an RS-232 connection (USB to Serial Converter in this case). The RTS signal from the Converter used here is inverted using a transistor since it comes from the FTDI chip inverted (cannot change EEPORM setting of **this** converter). When the signal reaching the optoisolatr is asserted it turns on the internal IR LED whose photons turn on the internal IR Photodiode, thereby connecting the Shutter/Focus pins to the Ground pin of the shutter release cable. For Fujifilm cameras I was targeting it was noted from inspection of commercial shutter release products that a successful shutter release depends on activating the focus pin before the shutter pin.
-
-You **may** be able to use this device with other camera control software that has a "Serial Shutter Release" option that uses the RTS signal to trigger a camera. 
-
 This has been tested working with an X-T100 and X-S10, and may work with other similarly controlled Fujifilm cameras (e.g. X-T#, X-T##, X-E#,X-T###, X###C, etc.) If you try this and it works for your camera let me know so I can build a compatability list.
 
 For astrophotography it has been tested working with an X-T100, camera lens, and Star Adventurer guided with a small guide camera and guide scope.
+
+## Theory of Operation
+This device works by using software on a computer to control the RTS signal of an RS-232 connection (USB to Serial Converter in this case). The RTS signal from the Converter used here is inverted using a transistor since it comes from the FTDI chip inverted (cannot change EEPORM setting of **this** converter). When the signal reaching the optoisolatr is asserted it turns on the internal IR LED whose photons turn on the internal IR Photodiode, thereby connecting the Shutter/Focus pins to the Ground pin of the shutter release cable. From inspection of commercial shutter release products it was found that a successful shutter release depends on activating the focus pin before the shutter pin. For astrophotography a telescope or manually focused lens is used, so simultaneously activiating the focus and shutter pins successfully closes the shutter on the camera. This device has been tested working with some Canon cameras that use the 3 pin shutter release, though I am marketing this for Fujifilm folks since there is no BackyardFujifilm or other tethering option for most cameras.
+
+You **may** be able to use this device with other camera control software that has a "Serial Shutter Release" option that uses the RTS signal to trigger a camera. 
+
+
 
 ## What's Included
 Included are the Eagle PCB files for ordering a board. Boards can be [purchased from OSH Park](https://oshpark.com/shared_projects/9drAsv7N) for around $11 for 3 boards. If you choose to order elsewhere, the 3D files are designed for a PCB thickness of 63mil (1.6mm).
