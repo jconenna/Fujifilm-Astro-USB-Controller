@@ -17,6 +17,8 @@ Included are the Eagle PCB files for ordering a board. Boards can be [purchased 
 
 Included are two stl files for 3D printing a case. This contains a top and bottom piece that snap together and can be easily printed without supports by a wide variety of printers. I used PLA with default printed settings. 
 
+![Device Inside 3D Printed Case](https://github.com/jconenna/Fujifilm-USB-Shutter-Release/blob/main/Image_2.jpg?raw=true)
+
 ## Bill of Materials:
 1 - FT232RL USB to TTL Serial Converter module (red PCB with Mini USB female connector)<br/>
 1 - PJ-307 3.5 mm Audio Jack Connector PCB Mount Female Socket 5 Pin<br/>
