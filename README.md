@@ -1,4 +1,4 @@
-##Fujifilm-USB-Shutter-Release
+## Fujifilm-USB-Shutter-Release
 
 USB Serial shutter release device for Fujifilm cameras. 
 
@@ -15,7 +15,7 @@ Included are the Eagle PCB files for ordering a board. Boards can be (purchased 
 
 Included are two stl files for 3D printing a case. This contains a top and bottom piece that snap together and can be easily printed without supports by a wide variety of printers. I used PLA with default printed settings. 
 
-#Bill of Materials:
+# Bill of Materials:
 1 - FT232RL USB to TTL Serial Converter module (red PCB with Mini USB female connector)
 1 - PJ-307 3.5 mm Audio Jack Connector PCB Mount Female Socket 5 Pin
 1 - 4N25 Optoisolator (6 pin DIP, white)
@@ -23,7 +23,7 @@ Included are two stl files for 3D printing a case. This contains a top and botto
 2 - 1 kOhm Axial Resistor (common through hole resistor)
 1 - 50 Ohm Axial Resistor (common through hole resistor)
 
-#In addition you will need:
+# In addition you will need:
 1 - A-Male to Mini-B USB, length of your choice
 1 - 3.5mm Audio Cable, length of your choice
 1 - 3.5mm Female to 2.5mm Male adapter, preference to short cable type with right angle 2.5mm connector
