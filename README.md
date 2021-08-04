@@ -1,6 +1,6 @@
 # Fujifilm-USB-Shutter-Release
 
-USB Serial shutter release device for Fujifilm cameras. 
+USB Serial shutter release device for Fujifilm cameras, geared towards **Astrophotography** use.
 
 ![Assembled PCB with 3d Printed Case](https://github.com/jconenna/Fujifilm-USB-Shutter-Release/blob/main/Image_1.jpg?raw=true)
 
