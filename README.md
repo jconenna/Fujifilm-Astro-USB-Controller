@@ -1,11 +1,12 @@
 # Fujifilm-USB-Shutter-Release
 
-![Assembled PCB with 3d Printed Case](https://github.com/jconenna/Fujifilm-USB-Shutter-Release/blob/main/Image_1.jpg?raw=true)
-
 USB Serial shutter release device for Fujifilm cameras. 
 
+![Assembled PCB with 3d Printed Case](https://github.com/jconenna/Fujifilm-USB-Shutter-Release/blob/main/Image_1.jpg?raw=true)
+
+
 ## Description
-This device was made in response to a lack of tethering options for Fujifilm cameras for Astrophotography control, though it can be used for general shutter release needs.
+This device was made in response to a lack of tethering options for Fujifilm cameras for **Astrophotography control**, though it can be used for general shutter release needs.
 This device allows a compatible Fujifilm camera to be controlled by [digiCamControl](http://digicamcontrol.com/) software (free, MS Windows) with its "Astro" intervalometer mode, which allows for autoguiding a mount between frames using [PHD2](https://openphdguiding.org/) software which interoperates with digiCamControl.
 
 This has been tested working with an X-T100 and X-S10, and may work with other similarly controlled Fujifilm cameras (e.g. X-T#, X-T##, X-E#,X-T###, X###C, etc.) If you try this and it works for your camera let me know so I can build a compatability list.
