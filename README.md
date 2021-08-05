@@ -12,19 +12,19 @@ This device allows a compatible Fujifilm camera to be controlled by [digiCamCont
 
 The device was made using common, inexpensive, and easy to assemble parts that can be sourced from places like Amazon, Ebay, Sparkfun, and other retailers.</br>
 
-An optoisolator isolates the 5V Computer side circuit from the shutter release camera side of the circuit, providing some added safety.</br>
+An optoisolator isolates the 5V omputer side circuit from the shutter release camera side of the circuit, providing some added safety.</br>
 
-This has been tested working with an X-T100 and X-S10, and should work with other similarly controlled Fujifilm cameras (e.g. X-T#, X-T##, X-E#,X-T###, X###C, etc.) If you try this and it works for your camera let me know so I can build a compatability list.</br>
+This has been tested working with an X-T100 and X-S10, and should work with other similarly controlled Fujifilm cameras (e.g. X-T#, X-T##, X-E#, X-T###, X###C, etc.) If you try this and it works for your camera let me know so I can build a compatability list.</br>
 
 This device has been tested working with some Canon cameras that use the 3 pin shutter release, though I am marketing this for Fujifilm folks since there is no BackyardFuji or other tethering option for most cameras.</br>
 
-For astrophotography use with digiCamControl software, it has been tested working with an X-T100, camera lens, and Star Adventurer mount guided with PHD2 using an ASI120MM-Mini guide cam and 30mm guide scope.</br>
+For astrophotography use with digiCamControl software, it has been tested working with an X-T100, camera lens, and Star Adventurer mount guided with PHD2 using an ASI120MM-Mini guide cam and 30mm guide scope, dithering between frames.</br>
 
-You **may** be able to use this device with other camera control software that has a "Serial Shutter Release" option that uses the RTS signal to trigger a camera. </br>
+You **may** be able to use this device with other camera control software that has a "Serial Shutter Release" option that uses the RTS signal as the signal to the device. </br>
 
 ## Theory of Operation
-This device works by using software on a computer to control the RTS signal of an RS-232 connection (USB to Serial Converter in this case). The RTS signal from the Converter used here is inverted using a transistor since it comes from the FTDI chip inverted (cannot change EEPORM setting of **this** converter). When the signal reaching the optoisolatr is asserted it turns on the internal IR LED whose photons turn on the internal IR Photodiode, thereby connecting the Shutter/Focus pins to the Ground pin of the shutter release cable, closing the camera shutter.</br>
-From inspection of commercial shutter release products for Fujifilm cameras, it was found that a successful shutter release depends on activating the focus pin before the shutter pin. For astrophotography a telescope or manually focused lens is used, so simultaneously activiating the focus and shutter pins successfully closes the shutter on the camera.</br> 
+This device works by using software on a computer to control the RTS signal of an RS-232 connection (USB to Serial Converter in this case). The RTS signal from the Converter used here is inverted using a transistor since it comes from the FTDI chip inverted (cannot change EEPORM setting of **this** converter). When the signal reaching the optoisolatr is asserted it turns on the internal IR LED whose photons turn on the internal IR Photodiode on the shutter release side, connecting the Shutter/Focus pins to the Ground pin of the shutter release cable, and thereby closing the camera shutter.</br>
+From inspection of commercial shutter release products for Fujifilm cameras, it was found that a successful shutter release depends on activating the focus pin before the shutter pin. For astrophotography a telescope or manually focused lens is typically used, thus the focus activation has no ill effect on composition. This device simultaneously activiates the focus and shutter pins, successfully closing the shutter on the camera.</br> 
 
 
 
@@ -32,9 +32,9 @@ From inspection of commercial shutter release products for Fujifilm cameras, it 
 
 
 ## What's Included
-Included are the Eagle PCB files for ordering a board. Boards can be [purchased from OSH Park](https://oshpark.com/shared_projects/9drAsv7N) for around $11 for 3 boards. If you choose to order elsewhere, the 3D files are designed for a PCB thickness of 1.5-1.6mm.
+Included are the Eagle PCB files for ordering a board. Boards can be easily [purchased from OSH Park](https://oshpark.com/shared_projects/9drAsv7N) for around $11 for 3 boards. If you choose to order elsewhere, the 3D files are designed for a PCB thickness of 1.5-1.6mm. Note: I have no affiliation with OSH Park, but love their services.
 
-Included are two stl files for 3D printing a case. This contains a top and bottom piece that snap together and can be easily printed without supports by a wide variety of printers. I used PLA with default printed settings on an Ender 3 Pro printer. 
+Included are two stl files for 3D printing a case. This contains a top and bottom piece that snap together and can be easily printed without supports by a wide variety of printers. I used PLA material with default print settings on an Ender 3 Pro printer. 
 
 ![Device Inside 3D Printed Case](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/Image_2.jpg?raw=true)
 
@@ -47,10 +47,10 @@ Included are two stl files for 3D printing a case. This contains a top and botto
 1 - 50 Ohm Axial Resistor (common through hole resistor)<br/>
 
 ## In addition you will need:
-1 - A-Male to Mini-B USB, length of your choice<br/>
+1 - A-Male to Mini-B USB Cable, length of your choice<br/>
 1 - 3.5mm Audio Cable, length of your choice<br/>
-1 - 3.5mm Female to 2.5mm Male adapter, preference to short cable type with right angle 2.5mm connector<br/>
-OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
+1 - 3.5mm Female to 2.5mm Male adapter, preferably the short cable type with right angle 2.5mm connector<br/>
+OR instead of the 2 previous items 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 
 ## Tutorial
 
