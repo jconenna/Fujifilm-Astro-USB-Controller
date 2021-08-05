@@ -65,7 +65,13 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 3. Open Windows Device Manager (Win-R, devmgmt.msc, OK).
 4. Plug in the Fujifilm-Astro-USB-Controller device using the USB Mini cable.
 5. Click the drop-down arrow for **Ports** and note "USB Serial Port" device. Right-click, properties, and note Manufacturer: FTDI. 
-6. Note the COM number assigned to the device, in this case COM7.
+6. Note the COM number assigned to the device, in this case COM7.</br>
 ![COM Port](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_1.JPG?raw=true)
+7. Download the latest stable version of [digiCamControl](http://digicamcontrol.com/download) and install.
+8. Open digiCamControl.
+9. Go to File > Settings.
+10. In the popup window click on Devices, under available devices click Add.
+11. Name the device under Configuration, set the driver as **Serial Port Shutter Release**, and Com Port to the COM port of the device.</br>
+![Device Setup](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_2.JPG?raw=true)
 
 
