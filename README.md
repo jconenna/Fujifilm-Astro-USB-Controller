@@ -83,13 +83,14 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 16. Set **Capture time** value in seconds.
 17. Set **Number of photos** to set how many frames to capture before stopping.
 18. Set **Time between shots** value in seconds. For non guided imaging I usually set this to 5.
-19. If guiding with PHD2, open, setup, and begin guiding with PHD2. **If not guiding skip to Step 21.**
+19. If guiding with PHD2, open, setup, and begin guiding with PHD2. **If not guiding skip to Step 22.**
 - Set **PHD Guiding** from (None) to Move1 - Move5 (Dither a random amount, up to +/- [0.5, 1.0, 2.0, 3.0, 5.0] x dither scale)
 20. Set **Wait for PHD** to 20 seconds. This value will depend on how long it takes starting from when the shutter closes, ending after a dither in PHD2 and the guiding is stabalized. For me 20 seconds was sufficient, but you may test to get a feel for this value. You could also set this value to 0 and set **Time between shots** to the necessary amount of time.</br>
-21. Connect the shutter release cable from the Camera to the Fujifilm-Astro-USB-Controller device.
-22. Turn on your device, set ISO, and put it in BULB mode. If camera is asleep, wake up with half shutter press.
-23. To begin imaging click Start Capture.
-24. If nothing happens and the BULB window shows "Error Shutter Access to the port is denied", turn off the camera, unplug and replug the Fujifilm-Astro-USB-Controller device, turn on the camera, press Start Capture again and it should work.
+21. It is not necessary in my experience to check the "Automatically PHD..." box.
+22. Connect the shutter release cable from the Camera to the Fujifilm-Astro-USB-Controller device.
+23. Turn on your device, set ISO, and put it in BULB mode. If camera is asleep, wake up with half shutter press.
+24. To begin imaging click Start Capture.
+25. If nothing happens and the BULB window shows "Error Shutter Access to the port is denied", turn off the camera, unplug and replug the Fujifilm-Astro-USB-Controller device, turn on the camera, press Start Capture again and it should work.
 
 Some notes:</br>
 If the camera falls asleep before you start imaging you will have to wake it up with a button press before you begin.
