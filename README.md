@@ -2,7 +2,7 @@
 
 USB Serial shutter release device for Fujifilm cameras, geared towards **Astrophotography** use.
 
-![Assembled PCB with 3d Printed Case](https://github.com/jconenna/Fujifilm-USB-Shutter-Release/blob/main/Image_1.jpg?raw=true)
+![Assembled PCB with 3d Printed Case](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/Image_1.jpg?raw=true)
 
 
 ## Description
@@ -36,7 +36,7 @@ Included are the Eagle PCB files for ordering a board. Boards can be [purchased 
 
 Included are two stl files for 3D printing a case. This contains a top and bottom piece that snap together and can be easily printed without supports by a wide variety of printers. I used PLA with default printed settings on an Ender 3 Pro printer. 
 
-![Device Inside 3D Printed Case](https://github.com/jconenna/Fujifilm-USB-Shutter-Release/blob/main/Image_2.jpg?raw=true)
+![Device Inside 3D Printed Case](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/Image_2.jpg?raw=true)
 
 ## Bill of Materials:
 1 - FT232RL USB to TTL Serial Converter module (red PCB with Mini USB female connector)<br/>
