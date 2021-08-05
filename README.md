@@ -73,5 +73,7 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 10. In the popup window click on Devices, under available devices click Add.
 11. Name the device under Configuration, set the driver as **Serial Port Shutter Release**, and Com Port to the COM port of the device.</br>
 ![Device Setup](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_2.JPG?raw=true)
-
+12. Click Ok in the bottom left of the Settings window to exit.
+13. On the top toolbar click on the Astronomy button.
+![Astronomy Button](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_3.JPG?raw=true)
 
