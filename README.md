@@ -89,9 +89,9 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 21. It is not necessary in my experience to check the "Automatically PHD..." box.
 22. Connect the shutter release cable from the Camera to the Fujifilm-Astro-USB-Controller device.
 23. Turn on your device, set ISO, and put it in BULB mode. If camera is asleep, wake up with half shutter press.
-24. To begin imaging click Start Capture.
-25. If nothing happens and the BULB window shows "Error Shutter Access to the port is denied", turn off the camera, unplug and replug the Fujifilm-Astro-USB-Controller device, turn on the camera, press Start Capture again and it should work.
+24. To begin imaging press **Start Capture**.
+25. If nothing happens and the BULB window shows "Error Shutter Access to the port is denied", turn off the camera, unplug and replug the Fujifilm-Astro-USB-Controller device, turn on the camera, press **Start Capture** again and it should work.
 
 Some notes:</br>
-If the camera falls asleep before you start imaging you will have to wake it up with a button press before you begin.
+If the camera falls asleep before you start imaging you will have to wake it up with a button press before pressing **Start Capture**.
 
