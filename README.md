@@ -54,8 +54,18 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 
 ## Tutorial
 
-### Assembly
+#### Assembly
 
 [Here is a video showing from start to finish how I solder the components to the board.](https://youtu.be/rFp3plmKMuA)
+
+#### Use with digiCamControl
+
+1. [Download FTDI drivers here](https://cdn.sparkfun.com/assets/learn_tutorials/7/4/CDM21228_Setup.exe), or visit [FTDI's VCP Drivers page](https://ftdichip.com/drivers/) for the latest download of the Windows FTDI Driver executable.
+2. Install the drivers using the executable file.
+3. Open Windows Device Manager (Win-R, devmgmt.msc, OK).
+4. Plug in the Fujifilm-Astro-USB-Controller device using the USB Mini cable.
+5. Click the drop-down arrow for **Ports** and note "USB Serial Port" device. Right-click, properties, and note Manufacturer: FTDI. 
+6. Note the COM number assigned to the device, in this case COM7.
+![COM Port](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_1.JPG?raw=true)
 
 
