@@ -78,7 +78,7 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 ![Astronomy Button](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/capture_3.JPG?raw=true)
 14. In the popup BULB window, under the **External shutter release" menu, select enable and chose the device you just set up.</br>
 ![Chose device](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/capture_4.JPG?raw=true)
-15. Set the imaging session parameters:
+15. Set the imaging session parameters:</br>
 ![Bulb settings](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/capture_5.JPG?raw=true)
 16. Set **Capture time** value in seconds.
 17. Set **Number of photos** to set how many frames to capture before stopping.
