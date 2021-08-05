@@ -77,6 +77,6 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 13. On the top toolbar click on the Astronomy button.</br>
 ![Astronomy Button](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_3.JPG?raw=true)
 14. In the **External shutter release" menu, select enable and chose the device you just set up.</br>
-![Chose device](![image](https://user-images.githubusercontent.com/6036698/128271746-e7242cea-1d2e-4e69-81ee-07c58f051423.png)
+![Chose device](https://user-images.githubusercontent.com/6036698/128271746-e7242cea-1d2e-4e69-81ee-07c58f051423.png)
 
 
