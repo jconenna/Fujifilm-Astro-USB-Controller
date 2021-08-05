@@ -76,11 +76,19 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 12. Click Ok in the bottom left of the Settings window to exit.
 13. On the top toolbar click on the Astronomy button.</br>
 ![Astronomy Button](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_3.JPG?raw=true)
-14. In the **External shutter release" menu, select enable and chose the device you just set up.</br>
+14. In the popup BULB window, under the **External shutter release" menu, select enable and chose the device you just set up.</br>
 ![Chose device](https://user-images.githubusercontent.com/6036698/128271746-e7242cea-1d2e-4e69-81ee-07c58f051423.png)
 15. Set **Capture time** value in seconds.
 16. Set **Number of photos** to set how many frames to capture before stopping.
 17. Set **Time between shots** value in seconds. For non guided imaging I usually set this to 5.
-18. If guiding with PHD2, open, setup, and begin guiding with PHD2.
+18. If guiding with PHD2, open, setup, and begin guiding with PHD2. **If not guiding skip to Step 20.**
 - Set **PHD Guiding** from (None) to Move1 - Move5 (Dither a random amount, up to +/- [0.5, 1.0, 2.0, 3.0, 5.0] x dither scale)
+19. Set **Wait for PHD** to 20 seconds. This value will depend on how long it takes starting from when the shutter closes, ending after a dither in PHD2 and the guiding is stabalized. For me 20 seconds was sufficient, but you may test to get a feel for this value. You could also set this value to 0 and set **Time between shots** to the necessary amount of time.</br>
+20. Connect the shutter release cable from the Camera to the Fujifilm-Astro-USB-Controller device.
+21. Turn on your device, set ISO, and put it in BULB mode. If camera is asleep, wake up with half shutter press.
+22. To begin imaging click Start Capture.
+23. If nothing happens and the BULB window shows "Error Shutter Access to the port is denied", turn off the camera, unplug and replug the Fujifilm-Astro-USB-Controller device, turn on the camera, press Start Capture again and it should work.
+
+Some notes:</br>
+If the camera falls asleep before you start imaging you will have to wake it up with a button press before you begin.
 
