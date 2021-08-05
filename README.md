@@ -12,7 +12,7 @@ This device allows a compatible Fujifilm camera to be controlled by [digiCamCont
 
 The device was made using common, inexpensive, and easy to assemble parts that can be sourced from places like Amazon, Ebay, Sparkfun, and other retailers.</br>
 
-An optoisolator isolates the 5V omputer side circuit from the shutter release camera side of the circuit, providing some added safety.</br>
+An optoisolator isolates the 5V computer side circuit from the shutter release camera side of the circuit, providing some added safety.</br>
 
 This has been tested working with an X-T100 and X-S10, and should work with other similarly controlled Fujifilm cameras (e.g. X-T#, X-T##, X-E#, X-T###, X###C, etc.) If you try this and it works for your camera let me know so I can build a compatability list.</br>
 
