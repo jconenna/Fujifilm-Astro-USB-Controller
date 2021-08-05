@@ -78,5 +78,9 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 ![Astronomy Button](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_3.JPG?raw=true)
 14. In the **External shutter release" menu, select enable and chose the device you just set up.</br>
 ![Chose device](https://user-images.githubusercontent.com/6036698/128271746-e7242cea-1d2e-4e69-81ee-07c58f051423.png)
-
+15. Set **Capture time** value in seconds.
+16. Set **Number of photos** to set how many frames to capture before stopping.
+17. Set **Time between shots** value in seconds. For non guided imaging I usually set this to 5.
+18. If guiding with PHD2, open, setup, and begin guiding with PHD2.
+- Set **PHD Guiding** from (None) to Move1 - Move5 (Dither a random amount, up to +/- [0.5, 1.0, 2.0, 3.0, 5.0] x dither scale)
 
