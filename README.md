@@ -2,7 +2,7 @@
 
 USB Serial shutter release device for Fujifilm cameras, geared towards **Astrophotography** use.
 
-![Assembled PCB with 3d Printed Case](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/Image_1.jpg?raw=true)
+![Assembled PCB with 3d Printed Case](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/Image_1.jpg?raw=true)
 
 
 ## Description
@@ -36,7 +36,7 @@ Included are the Eagle PCB files for ordering a board. Boards can be [purchased 
 
 Included are two stl files for 3D printing a case. This contains a top and bottom piece that snap together and can be easily printed without supports by a wide variety of printers. I used PLA with default printed settings on an Ender 3 Pro printer. 
 
-![Device Inside 3D Printed Case](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/Image_2.jpg?raw=true)
+![Device Inside 3D Printed Case](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/Image_2.jpg?raw=true)
 
 ## Bill of Materials:
 1 - FT232RL USB to TTL Serial Converter module (red PCB with Mini USB female connector)<br/>
@@ -66,20 +66,20 @@ OR 1 - 3.5mm male to 2.5mm male Audio cable<br/>
 4. Plug in the Fujifilm-Astro-USB-Controller device using the USB Mini cable.
 5. Click the drop-down arrow for **Ports** and note "USB Serial Port" device. Right-click, properties, and note Manufacturer: FTDI. 
 6. Note the COM number assigned to the device, in this case COM7.</br>
-![COM Port](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_1.JPG?raw=true)
+![COM Port](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/capture_1.JPG?raw=true)
 7. Download the latest stable version of [digiCamControl](http://digicamcontrol.com/download) and install.
 8. Open digiCamControl.
 9. Go to File > Settings.
 10. In the popup window click on Devices, under available devices click Add.
 11. Name the device under Configuration, set the driver as **Serial Port Shutter Release**, and Com Port to the COM port of the device.</br>
-![Device Setup](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_2.JPG?raw=true)
+![Device Setup](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/capture_2.JPG?raw=true)
 12. Click Ok in the bottom left of the Settings window to exit.
 13. On the top toolbar click on the Astronomy button.</br>
-![Astronomy Button](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_3.JPG?raw=true)
+![Astronomy Button](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/capture_3.JPG?raw=true)
 14. In the popup BULB window, under the **External shutter release" menu, select enable and chose the device you just set up.</br>
-![Chose device](https://user-images.githubusercontent.com/6036698/128271746-e7242cea-1d2e-4e69-81ee-07c58f051423.png)
+![Chose device](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/capture_4.JPG?raw=true)
 15. Set the imaging session parameters:
-![Bulb settings](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/digiCamControl_Turorial/capture_5.JPG?raw=true)
+![Bulb settings](https://github.com/jconenna/Fujifilm-Astro-USB-Controller/blob/main/images/capture_5.JPG?raw=true)
 16. Set **Capture time** value in seconds.
 17. Set **Number of photos** to set how many frames to capture before stopping.
 18. Set **Time between shots** value in seconds. For non guided imaging I usually set this to 5.
