@@ -23,7 +23,8 @@ For astrophotography use with digiCamControl software, it has been tested workin
 You **may** be able to use this device with other camera control software that has a "Serial Shutter Release" option that uses the RTS signal as the signal to the device. </br>
 
 ## Theory of Operation
-This device works by using software on a computer to control the RTS signal of an RS-232 connection (USB to Serial Converter in this case). The RTS signal from the Converter used here is inverted using a transistor since it comes from the FTDI chip inverted (cannot change EEPROM setting of **this** converter). When the signal reaching the optoisolator is asserted it turns on the internal IR LED whose photons turn on the internal IR Photodiode on the shutter release side, connecting the Shutter/Focus pins to the Ground pin of the shutter release cable, and thereby closing the camera shutter.</br>
+This device works by using software on a computer to control the RTS signal of an RS-232 connection (USB to Serial Converter in this case). The RTS signal from the Converter used here is inverted using a transistor since it comes from the FTDI chip inverted (cannot change EEPROM setting of **this** converter). When the signal reaching the optoisolator is asserted it turns on the internal IR LED whose photons turn on the internal IR Photodiode on the shutter release side, connecting the Shutter/Focus pins to the Ground pin of the shutter release cable, thereby closing the camera shutter.</br>
+
 From inspection of commercial shutter release products for Fujifilm cameras, it was found that a successful shutter release depends on activating the focus pin before the shutter pin. For astrophotography a telescope or manually focused lens is typically used, thus the focus activation has no ill effect on composition. This device simultaneously activates the focus and shutter pins, successfully closing the shutter on the camera.</br> 
 
 
